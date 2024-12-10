@@ -20,4 +20,14 @@ large=(a>b)?(a>c?a:c):(b>c?b:c);
 printf("largest of 3 is :%d",large);
 }
 
-
+//swapping of 2 numbers using temp
+#include<stdio.h>
+int main()
+{
+int a=10,b=20,temp;
+printf("a=%d, b=%d",a,b);
+temp=a;
+a=b;
+b=temp;
+printf("a=%d, b=%d",a,b);
+}
